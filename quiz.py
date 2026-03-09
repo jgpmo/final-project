@@ -16,6 +16,12 @@ class Quiz:
             self.cats['tabby'] = self.cats.get('tabby') + 1
         if category == 'ragdoll':
             self.cats['ragdoll'] = self.cats.get('ragdoll') + 1
+        if category == 'black cat':
+            self.cats['black cat'] = self.cats.get('black cat') + 1
+        if category == 'siamese':
+            self.cats['siamese'] = self.cats.get('siamese') + 1
+        if category == 'maine coon':
+            self.cats['maine coon'] = self.cats.get('maine coon') + 1
 
     def score(self) -> str:
         greatest = 0
@@ -24,5 +30,5 @@ class Quiz:
             if points > greatest:
                 result = cat
                 greatest = points
-                
+
         return result

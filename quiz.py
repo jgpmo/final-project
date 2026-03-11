@@ -7,7 +7,6 @@ class Quiz:
             'black cat': 0, 
             'siamese': 0,
             'maine coon': 0,
-
         }
 
 
